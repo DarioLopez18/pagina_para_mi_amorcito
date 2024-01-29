@@ -1,0 +1,26 @@
+.CarouselDiv {
+  position: "relative";
+  text-align: "center";
+}
+
+@media (max-width: 1250px) {
+  .imgCarousel {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 720px) {
+  .imgCarousel {
+    width: 100%;
+    max-height: 900px;
+    object-fit: cover;
+  }
+}
+
+.imgCarousel {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+}

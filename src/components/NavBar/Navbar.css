@@ -1,0 +1,78 @@
+.navbar{
+    margin: 32px 96px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconHeart{
+    height: 5rem;
+}
+
+.enlaceHeart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+    .NombreNovia{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.NombreNovia{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-wrap: wrap;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    gap: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enlaces{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.enlaceNavbar{
+    transition: transform 0.3s ease;
+}
+
+.enlaceNavbar:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 1200px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .iconPrincipal{
+        display: flex;
+        justify-content: center;
+    }
+    .enlaces{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
